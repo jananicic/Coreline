@@ -1,0 +1,157 @@
+html, body, #root, .container, .row {
+    height: 100% !important;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loaderMain {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersList {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.ulUsersList {
+    height: 60%;
+    width: auto;
+    overflow-y: scroll
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    background: #f6f6f6;
+}
+
+li a:active {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    background: #449eff;
+}
+
+.chatMain {
+    height: 100%;
+    width: 70%;
+    padding: 0;
+    margin: 2% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.chatBoxHeader {
+    height: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favicon {
+    color: #007bff;
+    font-size: 35px;
+    margin-right: auto;
+    padding: 7px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+h4 {
+    padding: 7px !important;
+    margin: 0 !important;
+    margin-left: auto;
+}
+
+.chatBox {
+    height: 60%;
+    width: 70%;
+    padding: 0;
+    margin: 2% auto 0 auto;
+    border: 1px solid darkgray;
+    overflow-y: scroll;
+    display: flex;
+}
+
+.chatInput {
+    width: 70% !important;
+    height: 10% !important;
+    margin: 2% auto 2% auto;
+    overflow-y: scroll;
+    resize: none;
+}
+
+.chatButton {
+    width: 70%;
+}
+
+.messageBox {
+    width: 100%;
+    height: auto;
+}
+
+.message {
+    width: auto;
+    height: auto;
+    display: flex;
+    background: #007bff;
+    border: 1px solid #007bff !important;
+    border-radius: 10px !important;
+    padding: 7px;
+    margin: 10px;
+    color: ghostwhite;
+}
